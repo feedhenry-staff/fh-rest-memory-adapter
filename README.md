@@ -10,7 +10,7 @@ to data loss and inconsistency upon MBaaS Service process restarts.*
 ## Install
 
 ```
-npm install feedhenry-staff/fh-rest-memory-adpater
+npm install feedhenry-staff/fh-rest-memory-adapter
 ```
 
 ## Usage
@@ -95,15 +95,6 @@ dogStore.create({
 });
 
 dogStore.list(function (err, dogs) {
-  // cats =
-  // {
-  //    0: {
-  //      name: 'Felix'
-  //    }
-  // }
-});
-
-catStore.list(function (err, cats) {
   // dogs =
   // {
   //    0: {
@@ -111,6 +102,15 @@ catStore.list(function (err, cats) {
   //    }
   //    1: {
   //      name: 'Max'
+  //    }
+  // }
+});
+
+catStore.list(function (err, cats) {
+  // cats =
+  // {
+  //    0: {
+  //      name: 'Felix'
   //    }
   // }
 });
@@ -155,7 +155,7 @@ store.update({
 Delete an item in the store. _id_ must be passed in the params.
 
 ```js
-store.update({
+store.delete({
   id: '0'
 }, function (err, deletedItem) {});
 ```
