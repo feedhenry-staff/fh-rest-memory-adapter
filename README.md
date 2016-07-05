@@ -1,5 +1,7 @@
 # fh-rest-memory-adapter
 
+[![Circle CI](https://circleci.com/gh/feedhenry-staff/fh-rest-memory-adapter/tree/master.svg?style=svg)](https://circleci.com/gh/feedhenry-staff/fh-rest-memory-adapter/tree/master)
+
 Creates an adapter that uses process memory to store data. Created adapters
 *do not* share memory!
 
