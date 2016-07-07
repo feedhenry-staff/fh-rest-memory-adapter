@@ -1,6 +1,6 @@
 {
   "name": "fh-rest-memory-adapter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An in-memory adapter for fh-rest-express-router",
   "main": "lib/fh-rest-memory-adapter.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "fh-rest"
   ],
   "author": "Evan Shortiss",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.3",
